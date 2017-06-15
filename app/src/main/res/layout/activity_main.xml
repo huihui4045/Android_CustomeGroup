@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.huihui.group.CustomLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:openxu="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.huihui.group.MainActivity">
+
+    <Button
+        android:layout_width= "wrap_content"
+        android:layout_height= "wrap_content"
+        openxu:layout_position= "left"
+        android:background= "#FF8247"
+        android:textColor= "#ffffff"
+        android:layout_marginTop="10dp"
+        android:textSize="20dip"
+        android:padding= "20dip"
+        android:text= "按钮1" />
+
+    <Button
+        android:layout_width= "wrap_content"
+        android:layout_height= "wrap_content"
+        openxu:layout_position= "right"
+        android:background= "#8B0A50"
+        android:textColor= "#ffffff"
+        android:layout_marginRight="20dp"
+        android:textSize= "18dip"
+        android:padding= "10dip"
+        android:text= "按钮2222222222222" />
+
+    <Button
+        android:layout_width= "wrap_content"
+        android:layout_height= "wrap_content"
+        openxu:layout_position= "bottom"
+        android:background= "#7CFC00"
+        android:textColor= "#ffffff"
+        android:layout_marginBottom="30dp"
+        android:textSize= "20dip"
+        android:padding= "15dip"
+        android:text= "按钮333333" />
+
+    <Button
+        android:layout_width= "wrap_content"
+        android:layout_height= "wrap_content"
+        openxu:layout_position= "rightAndBottom"
+        android:background= "#1E90FF"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:textColor= "#ffffff"
+        android:textSize= "15dip"
+        android:padding= "10dip"
+        android:text= "按钮4" />
+
+    <Button
+        android:layout_width= "wrap_content"
+        android:layout_height= "wrap_content"
+        openxu:layout_position= "center"
+        android:background= "#191970"
+        android:textColor= "#ffffff"
+        android:textSize= "20dip"
+        android:padding= "15dip"
+        android:text= "按钮5" />
+
+</com.huihui.group.CustomLayout>
